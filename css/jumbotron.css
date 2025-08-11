@@ -1,0 +1,88 @@
+/*
+	Bootstrap 2.3.2 Jumbotron
+	Modified from the bootstrap docs website
+	https://getbootstrap.com/2.3.2/index.html
+*/
+
+.jumbotron {
+	position: relative;
+	padding: 60px 0;
+	margin-bottom: 30px;
+	color: #fff;
+	text-align: center;
+	background-color: #2c3e50;
+}
+
+.jumbotron-bg {
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+.jumbotron h1 {
+	font-size: 72px;
+	line-height: 1;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.jumbotron p {
+	font-size: 24px;
+	font-weight: 300;
+	margin-bottom: 20px;
+}
+
+.jumbotron .jumbotron-links {
+	margin: 20px 0 0;
+	list-style: none;
+	padding: 0;
+}
+
+.jumbotron .jumbotron-links li {
+	display: inline-block;
+	padding: 0 10px;
+	color: rgba(255, 255, 255, 0.7);
+}
+
+/* Responsive breakpoints */
+
+/* Tablets & small desktops */
+@media ( min-width : 768px) and (max-width: 979px) {
+	.jumbotron {
+		padding: 50px 20px;
+	}
+	.jumbotron h1 {
+		font-size: 56px;
+	}
+	.jumbotron p {
+		font-size: 20px;
+	}
+}
+
+/* Phones to tablets */
+@media ( max-width : 767px) {
+	.jumbotron {
+		padding: 40px 15px;
+	}
+	.jumbotron h1 {
+		font-size: 42px;
+		line-height: 46px;
+	}
+	.jumbotron p {
+		font-size: 18px;
+	}
+}
+
+/* Phones <= 480px */
+@media ( max-width : 480px) {
+	.jumbotron {
+		padding: 30px 15px;
+	}
+	.jumbotron h1 {
+		font-size: 30px;
+		line-height: 36px;
+	}
+	.jumbotron p {
+		font-size: 16px;
+	}
+}
